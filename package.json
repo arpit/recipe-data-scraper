@@ -6,6 +6,7 @@
   "main": "lib/index.js",
   "types": "index.d.ts",
   "scripts": {
+    "prepare": "webpack",
     "build": "webpack",
     "build-watch": "webpack -w",
     "test-old": "mocha './src/**/*.test.js' --require @babel/register --reporter spec || exit 0",
